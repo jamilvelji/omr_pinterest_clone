@@ -5,3 +5,7 @@ $jumbotron-bg: #ecf0f1;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+.navbar-brand {
+  font-weight: bold;
+}
