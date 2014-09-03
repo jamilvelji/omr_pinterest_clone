@@ -5,7 +5,7 @@
         <%= link_to 'Back', pins_path %>
       </div>
       <div class="panel-body text-center">
-        <%= image_tag @pin.image.url(:medium) %>
+        <%= link_to image_tag(@pin.image.url), @pin.image.url %>
       </div>
     </div>
     <div class="panel panel-footer">
