@@ -13,9 +13,10 @@
             <span class="glyphicon glyphicon-pencil"></span> Edit
           <% end %>
           <span class="spacer"></span>
-          <%= link_to method: :delete, data: {confirm: "Are you sure?"} do %>
-            <span class="glyphicon glyphicon-trash"></span> Delete
-          <% end %>
+          <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
+              <span class="glyphicon glyphicon-trash"></span>
+              Delete
+            <% end %>
         </div>
         <% end %>
       </div>
