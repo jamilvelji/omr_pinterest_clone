@@ -1,4 +1,4 @@
-Source: One Month Rails
+See it live: http://orm-pinteresting.herokuapp.com
 
 This is a MVP feature set re-build of Pinterest. Feature set includes:
 
