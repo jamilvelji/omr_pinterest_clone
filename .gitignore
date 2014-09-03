@@ -17,3 +17,6 @@
 
 # Ignore images
 /public/system/*
+
+.env
+Procfile
