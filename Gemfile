@@ -47,3 +47,4 @@ end
 
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
+gem 'devise', '~> 3.3.0'
